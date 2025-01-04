@@ -9,7 +9,7 @@
 <div align="center">
   <h3>>
     <span> | </span>
-    <a href="https://guilhermmedev.github.io/challenge-device-shop/)}">
+    <a href="https://guilhermmedev.github.io/challenge-device-shop">
       Solution
     </a>
     <span> | </span>
