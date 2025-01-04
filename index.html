@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Device Shop Checkout | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="resources/background-image.png"
+      alt="background_image"
+      id="bck_image"
+    />
+    <div class="page_message">
+      <div class="page_title">
+        <p>Checkout</p>
+      </div>
+      <div class="page_items">3 ITEMS</div>
+    </div>
+
+    <main class="main_menu">
+      <section class="products_menu">
+        <div class="product">
+          <div class="product_image">
+            <img src="resources/Gold.png" alt="phone image" />
+          </div>
+          <div class="product_info">
+            <div class="left_info">
+              <p class="product_name">iPhone 12 Pro</p>
+              <p class="product_color">Golden</p>
+              <p class="product_quantity">x 1</p>
+            </div>
+            <div class="right_info">
+              <p class="product_price">$999.00</p>
+              <p class="cancel_button">x</p>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_image">
+            <img src="resources/Apple-watch.png" alt="phone image" />
+          </div>
+          <div class="product_info">
+            <div class="left_info">
+              <p class="product_name">Apple Watch</p>
+              <p class="product_color">Blue</p>
+              <p class="product_quantity">x 1</p>
+            </div>
+            <div class="right_info">
+              <p class="product_price">$399.00</p>
+              <p class="cancel_button">x</p>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_image">
+            <img src="resources/iMac.png" alt="phone image" />
+          </div>
+          <div class="product_info">
+            <div class="left_info">
+              <p class="product_name">iMac</p>
+              <p class="product_color">Green</p>
+              <p class="product_quantity">x 1</p>
+            </div>
+            <div class="right_info">
+              <p class="product_price">$1199.00</p>
+              <p class="cancel_button">x</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="purchase_area">
+          <hr class="division_bar" />
+          <div class="cupon_area">
+            <input
+              type="text"
+              name="cupon"
+              id="cupon_input"
+              placeholder="Enter coupon code"
+            />
+
+            <input type="submit" value="Apply Coupon" class="submit_button" />
+          </div>
+          <div class="purchase_info">
+            <div class="purchase_left_info">
+              <p>Sub total</p>
+              <p>Tax</p>
+              <p class="total_price">Total</p>
+            </div>
+            <div class="purchase_right_info">
+              <p>$2597.00</p>
+              <p>$623.28</p>
+              <p class="total_price">$3220.28</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="user_menu">
+        <p class="title_user_section">Contact Information</p>
+        <div class="inputs_user">
+          <div class="container_input">
+            <label for="name">First & Last name</label>
+            <input
+              type="text"
+              name="name"
+              id="name_input"
+              class="user_input"
+              placeholder="Enter first & last name"
+            />
+          </div>
+          <div class="container_input">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email_input"
+              class="user_input"
+              placeholder="Enter email address"
+            />
+          </div>
+          <div class="container_address">
+            <div class="container_input">
+              <label for="country">Country</label>
+              <select name="country" id="country_input" class="user_input">
+                <option value="finland">Finland</option>
+              </select>
+            </div>
+            <div class="container_input">
+              <label for="postalcode">Postal Code</label>
+              <input
+                type="text"
+                name="postalcode"
+                id="postalcode_input"
+                class="user_input"
+                value="00270"
+              />
+            </div>
+          </div>
+          <div class="container_submit_button">
+            <input type="submit" value="Continue" class="submit_button" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="author_info">
+      Coded by
+      <a href="https://github.com/GuilhermmeDev" target="_blank"
+        >GuilhermmeDev</a
+      >
+      | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
